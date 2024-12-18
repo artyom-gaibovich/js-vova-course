@@ -1,12 +1,12 @@
 import json
+import os
 users=[]
 def write(data):
     with open(base.txt,"w",encoding="utf-8") as file:
             file.write(data+"/n")
 def read():
-    with open(base.txt,"r",encoding="utf-8") as file:
-                 content=file.readlines()
-                 return [line.strip()for line in content]
+    with open(base.txt,"r",encoding="utf-8") as f:
+               base.txt.append(line.strip())
 while True:
     print("Введите цифру 1 чтобы зарегистрироваться")
     print("Введите цифру 2 чтобы авторизоваться")
@@ -22,9 +22,17 @@ while True:
 
     elif a=="2":
         email=input()
-        if email=base.txt:
+       if os.path.isfile(base.txt):
+           read()
+           def check_authorization(email)
+               if email in base.txt:
+                   return True
+               else:
+                   print("Зарегистрирутесь пожалуйста")
+
 
     else:
          print("Ошибка ввода данных")
+
 
 
