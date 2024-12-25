@@ -34,10 +34,15 @@ def create_habit():
     }
 def delete_habit():
     #TODO сделать логику удаления привычки
-
+    index=habits.index(new_habit_id)
+    habits.remove(index)
 def edit_habit():
     #TODO сделать логику редактирования привычки
 def get_habits():
     #TODO сделать логику представления всех привычки
+    for i in range(0, len(habits)):
+        print(habits[i])
 def get_habit():
     #TODO сделать логику представления одной привычки
+    index=habits.index(new_habit_id)
+    print(index)
