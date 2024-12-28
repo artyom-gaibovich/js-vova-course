@@ -54,7 +54,7 @@ def check_habits():
 def check_habit():
     #TODO сделать логику представления одной привычки
     index=habits.index(new_habit_id)
-    print(index)
+    print(index))
     if datetime.now()<end_date:
         is_resolve=True
     else:
