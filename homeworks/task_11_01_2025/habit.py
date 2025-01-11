@@ -1,10 +1,13 @@
 import datetime
 import generator_id
 habits=[]
+
+#TODO ПОДУМОЙ НАД НАЗВАНИЕМ ФАЙЛА (ЭТО же некий сервис, он что выполняет, значит и файл должен так называтся). Допустим habit_service, или сам придумай пример названия.
+
 def handle_error():
      print("Ошибка ввода данных")
 def create_habit():
-    #TODO сделать логику создания привычки
+    #TODO Вынести сообщения в отдельые константы, чтобы не было ХАРДКОДИНГА !
     period=input("Напишите,ваша привычка будет повторятся каждый день,каждую неделю или каждый месяц?")
     if period=="каждый день":
         date_str = input("Введите дату в формате ГГГГ-ММ-ДД: ")
@@ -28,7 +31,6 @@ def create_habit():
                time:datetime.strtime(time_str, '%H-%M-%S'),
     }
 def delete_habit():
-    #TODO сделать логику удаления привычки
     index=habits.index(new_habit_id)
     habits.remove(index)
 def edit_habit():
