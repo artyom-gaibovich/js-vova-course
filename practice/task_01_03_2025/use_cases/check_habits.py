@@ -11,4 +11,4 @@ class CheckHabits:
             print("Нет привычек.")
         else:
             for habit in habits:
-                print(f"{habit['title']} - {habit['description']}")
+                print(f"[{habit['habit_id']}]:{habit['title']} - {habit['description']}, периодичность: {habit['period']} секунд")
