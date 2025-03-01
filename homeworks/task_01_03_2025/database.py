@@ -11,3 +11,5 @@ def init_db(path_to_db):
 def save(new_users_database, path_to_db):
     with open(path_to_db, 'w') as json_file:
         json.dump(new_users_database, json_file)
+
+

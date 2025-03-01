@@ -21,7 +21,6 @@ def timestamp_converter(timestamp):
  formatted_next_day = timestamp_converter(next_day)
 
 
-
  def fullfilled:
      if (current_date >= date_to_update):
         next_day = next_day + interval

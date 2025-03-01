@@ -3,6 +3,7 @@ habits_database = database.init_db('habits.json')
 
 
 
+
 def find(title, description):
     input_habits = ''
     for habit in habits_database:

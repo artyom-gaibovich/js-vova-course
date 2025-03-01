@@ -8,6 +8,7 @@ import habit
 import system
 import generator_id
 users=[]
+
 while True:
     auth.handle_user_input()
     if a=="1":
