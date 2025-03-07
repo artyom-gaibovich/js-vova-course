@@ -9,9 +9,9 @@ def create_habit():
     #TODO сделать логику создания привычки
     new_habit= {
                name:input("Введите имя привычки"),
-               description=input("Введите описание привычки")
+               description:input("Введите описание привычки"),
                new_habit_id:generator_id.generate_id(),
-               start_date=datetime.today(),
+               start_date:datetime.today(),
                is_resolve:False
 
     }
