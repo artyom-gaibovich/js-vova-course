@@ -29,7 +29,7 @@ class HabitScheduler:
                     habit["next_due"] = next_due
                     self.repo.update_habit(habit["habit_id"], habit)
 
-                print(f"Current time (now): {now}, Next due time: {next_due}, Habit completed: {habit['is_completed']}")
+                #print(f"Current time (now): {now}, Next due time: {next_due}, Habit completed: {habit['is_completed']}")
 
                 # Если время для выполнения пришло
                 if now >= next_due and not habit["is_completed"]:
