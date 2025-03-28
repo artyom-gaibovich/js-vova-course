@@ -7,28 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        a, img {
+            display: block;
+            border: 10px solid black;
+        }
     </style>
 </head>
 <body>
 
-<!-- 100000-->
-<!-- 100000-->
-<!-- 100000-->
-<!-- 100000-->
-<h1 id="higher1">Знакомоство с HTML</h1>
-<h2>Параграф 1</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium asperiores, atque debitis dolorem
-    doloremque ea, et explicabo inventore iste molestias odit placeat provident qui rem repellendus repudiandae sed ut?
-</p>
-<img src="public/Zunge_raus.JPG" alt="Изображение не загрузилось" width="100px" >
-<h2>Параграф 2</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium asperiores, atque debitis dolorem
-    doloremque ea, et explicabo inventore iste molestias odit placeat provident qui rem repellendus repudiandae sed ut?
-</p>
-<h3>Дока по HTML</h3>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+    <div style="width: 200px;border: 1px solid black; padding: 10px;">
+        <a href="#">
+            Ссылка 1
+        </a>
+        <a href="#">
+            Ссылка 2
+        </a>
+        <a href="#">
+            Ссылка 3
+        </a>
 
-
+        <a href="#">
+            Ссы
+        </a>
+    </div>
+    <div style="width: 200px;border: 1px solid black; padding: 10px;">
+        <p>Текст 1</p>
+        <p>Текст 2</p>
+        <p>Текст 3</p>
+        <p>Текст 4</p>
+    </div>
+    <div style="width: 200px;border: 1px solid black; padding: 10px;">
+        <img src="public/Zunge_raus.JPG" height="100">
+        <img src="public/Zunge_raus.JPG" height="10">
+        <img src="public/Zunge_raus.JPG" height="100">
+    </div>
+</div>
 </body>
 </html>
