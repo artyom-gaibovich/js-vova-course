@@ -1,7 +1,7 @@
 from use_cases.create_habit import CreateHabit
 from use_cases.delete_habit import DeleteHabit
 from use_cases.check_habits import CheckHabits
-from use_cases.manage_habit import ManageHabit
+from use_cases.manage_habit import
 from use_cases.schedule_habits import HabitScheduler
 
 def main():
