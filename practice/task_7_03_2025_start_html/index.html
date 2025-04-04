@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <title>Email-рассылка</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body { font-family: Arial, sans-serif; }
+
     </style>
 </head>
 <body>
@@ -21,50 +27,43 @@
     </li>
 </ul>
 
-<table>
-    <caption></caption>
+<table border="1">
+    <caption>
+        Список сотрудников компании
+    </caption>
     <thead>
     <tr>
         <th>
             ID
         </th>
-        <th>
+        <th colspan="2">
             Username
-        </th>
-        <th>
-            Email
         </th>
     </tr>
     </thead>
 
     <tbody>
     <tr>
-        <td>
+        <td rowspan="2">
             123hd1-djjj3-11djd
         </td>
         <td>Grisha</td>
-        <td>sobkaa@email.com</td>
+        <td>Petrov 1</td>
     </tr>
     <tr>
-        <td>
-            123hd1-djjj3-11djd
-        </td>
         <td></td>
-        <td>sobkaa@email.com</td>
+        <td>Petrov 2</td>
     </tr>
     <tr>
-        <td>
+        <td rowspan="2">
             123hd1-djjj3-11djd
         </td>
         <td>Grisha</td>
-        <td>sobkaa@email.com</td>
+        <td>Petrov 3</td>
     </tr>
     <tr>
-        <td>
-            123hd1-djjj3-11djd
-        </td>
         <td>Grisha</td>
-        <td>sobkaa@email.com</td>
+        <td>Petrov 4</td>
     </tr>
     </tbody>
     <tfoot>
@@ -72,7 +71,7 @@
         1000
     </td>
     <td>++++</td>
-    <td>sobkaa@email.com</td>
+    <td>Petrov 5</td>
     </tfoot>
 
 </table>
