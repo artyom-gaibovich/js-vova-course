@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<!--
+
 <form action="#">
     <div style="display: flex; flex-direction: column; gap: 30px">
         <div>
@@ -82,6 +84,31 @@
 
     </div>
 </form>
+-->
+
+
+<form action="#">
+    <label for="search-youtube">Search on by link</label>
+    <input type="text" id="search-youtube" name="link" minlength="5" placeholder="Введите запрос"
+           pattern="^(https?\:\/\/)?(www\.)?(youtube\.com|youtu\.?be)\/.+$"
+           title="Пожалуйста, введите корректную ссылку на YouTube"/>
+    <input type="submit">
+</form>
+
+<!--    <div>
+        <label for="pass">Пароль: </label>
+        <input type="password"  id="pass" placeholder="Введите пароль" name="q" maxlength="10" minlength="5" title="fill" required/>
+    </div>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email"  id="email" placeholder="Введите Email" name="email"/>
+    </div>
+    <div>
+        <label for="date">Дата</label>
+        <input type="date" id="date" placeholder="Введите дату рождения" name="date"/>
+    </div>
+    -->
+
 
 </body>
 </html>
