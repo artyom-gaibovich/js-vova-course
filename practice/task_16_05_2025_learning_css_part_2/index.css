@@ -1,19 +1,23 @@
-/**
-Псевдокласс
- */
-a:hover {
-    background-color: red;
+#main {
+    color: #555555;
 }
-
-
-/**
-Псевдоэлемент
- */
-
-
-input, label {
+input,textarea{
     display: block;
 }
-a {
-    color: #f5ce42;
+form{
+    background-color: #FFFFFF;
+}
+label{
+    color: #000000;
+}
+input::placeholder,textarea::placeholder{
+    color: #AAAAAA;
+}
+.submit{
+    background-color: #0096FF;
+    color: #FFFFFF;
+}
+.cancel{
+    background-color: #FFFFFF;
+    color: #0096FF;
 }

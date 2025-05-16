@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h1>Форма обратной связи</h1>
+<h1 id="main">Форма обратной связи</h1>
 <form action="#">
     <label for="email">Email</label>
     <input type="email" id="email" placeholder="Емейл" name="email">
@@ -30,7 +30,8 @@
 
     <label for="comment">Комментарий</label>
     <textarea id="comment" placeholder="Введите комментарий" name="comment"></textarea>
-    <button type="submit">Отправить</button>
+    <button class="submit" type="submit">Отправить</button>
+    <button class="cancel" type="submit">Cancel</button>
 </form>
 
 
