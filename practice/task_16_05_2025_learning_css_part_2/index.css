@@ -1,0 +1,19 @@
+/**
+Псевдокласс
+ */
+a:hover {
+    background-color: red;
+}
+
+
+/**
+Псевдоэлемент
+ */
+
+
+input, label {
+    display: block;
+}
+a {
+    color: #f5ce42;
+}
