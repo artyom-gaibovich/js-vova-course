@@ -21,3 +21,8 @@ input::placeholder,textarea::placeholder{
     background-color: #FFFFFF;
     color: #0096FF;
 }
+
+h1 {
+    font-size: 32px;
+}
+
