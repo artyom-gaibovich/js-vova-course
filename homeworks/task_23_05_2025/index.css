@@ -2,8 +2,10 @@ body{
     background-color: #1A1A29;
     font-family: Poppins;
 }
-h1,p{
+
+h1,p,button{
     color: #FFFFFF;
+    font-family: Montserrat;
 
 }
 .p__header{
@@ -13,6 +15,7 @@ h1,p{
     line-height: 100%;
     margin-bottom: 1px;
     letter-spacing:0 ;
+
 
 
 }
